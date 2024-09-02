@@ -1,0 +1,21 @@
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+  margin: 5px;
+  transform: scale(0.99);
+  border-radius: 5px;
+  transition: 0.3s;
+
+  &:hover {
+      transform: scale(1);
+  }
+}
+
+.selected-answer {
+  background-color: var(--color-selected);
+  transform: scale(1);
+  color: #fff;
+}

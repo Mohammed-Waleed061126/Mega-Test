@@ -1,0 +1,38 @@
+.main-sign-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  gap: 10px;
+  width: 50% !important;
+  min-width: 400px;
+  max-width: 500px !important;
+
+  input {
+      outline: none;
+      padding: 10px;
+  }
+
+  >.custom-btn {
+      margin-top: 10px;
+  }
+
+  .part-sign {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      background-color: var(--secondary-bg);
+
+      button {
+          flex-grow: 1;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+      }
+
+      .sign-text {
+          border-radius: 5px;
+          padding: 10px 20px;
+      }
+  }
+}
